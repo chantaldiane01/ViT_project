@@ -1,0 +1,149 @@
+body {
+    background-color: gray;
+}
+
+div {
+    border: solid 1px blue;
+}
+#logo {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding: 0 50px 0 50px;
+}
+#h1 {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+#button {
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+#div3 {
+    display: flex;
+    border: none;
+}
+#menuItem {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: lightgray;
+    padding-bottom: 100px;
+}
+#post {
+    border: none;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding-top: 30px;
+}
+#text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 120px;
+    border: none;
+    padding-right: 100px;
+}
+#MessageURL {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border: none;
+    height: 130px;
+}
+#InputMessage {
+    background-color: lightgray;
+    width: 560px;
+    height: 60px;
+    border-radius: 20px;
+    border: white;
+    font-size: large;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+#InputImg {
+    background-color: lightgray;
+    height: 30px;
+    border: none;
+}
+#button2 {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: white;
+    background-color: lightblue;
+}
+#feed {
+    border: none;
+    width: 900px;
+    height: 180px;
+}
+#show {
+    background-color: lightgray;
+    height: 120px;
+    height: auto;
+    padding-left: 30px;
+    border: none;
+}
+ul {
+    list-style-type: none;
+}
+#outside {
+    padding-top: 30px;
+    border: none;
+}
+#carousl {
+    height: 160px;
+    background-color: rgb(206, 55, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 500px;
+    padding-right: 500px;
+    border: none;
+}
+.window {
+    height: 140px;
+    width: 140px;
+    display: flex;
+    overflow: hidden;
+    border: none;
+}
+#slider {
+    position: relative;
+    text-align: center;
+    display: flex;
+    border: none;
+}
+.TextInPic {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -25%);
+    width: min-content;
+    border: none;
+}
+#outside {
+    padding-top: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
